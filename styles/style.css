@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;800&family=Podkova:wght@400;600;800&display=swap');
+
+:root {
+    --color_light: #f7f7f6;
+    --color_mid: #bebab5;
+    --color_less_dark: #46413b;
+    --color_mid_dark: #22232a;
+    --color_dark: #020104;
+    --gradient: linear-gradient(
+        to right,
+        var(--color_mid_dark),
+        var(--color_less_dark)
+    );
+}
+
+body {
+    /* font-family: 'Podkova', serif; */
+    color: var(--color_light);
+    font-family: 'Fira Sans', sans-serif;
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
